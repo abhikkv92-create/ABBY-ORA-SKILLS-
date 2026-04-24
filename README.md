@@ -73,6 +73,14 @@ abby-ora-master-skill.md
 - REST APIs / SOAP Web Services
 - Functional Setup Manager (FSM)
 
+## Security & Verification
+
+This repository uses **GPG commit signing** for verified authorship. All commits are signed and show a "Verified" badge on GitHub.
+
+- **GPG Key ID**: `63F13118C60E5F6D`
+- **Key Type**: RSA 4096-bit
+- **Signing Enabled**: All commits are GPG signed
+
 ## License & Restrictions
 
 **RESTRICTED LICENSE** - See LICENSE file for complete terms.
