@@ -1,0 +1,17 @@
+# Git Attributes for Abbey ORA Skills
+# ===============================
+# This file provides additional protection and settings
+
+# Force UTF-8 encoding
+* text=auto encoding=utf-8
+
+# Markdown files
+*.md text eol=lf
+
+# Ensure line endings
+*.md text=auto eol=lf
+
+# =================================================================================
+# DEVELOPED BY: ABHINAV VERMA | EMAIL: Abbykkv@gmail.com | CREATED: April 24, 2026
+# GitHub: https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-
+# =================================================================================
