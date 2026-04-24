@@ -1,108 +1,199 @@
-# Abby ORA Skills - Oracle Fusion Cloud Expert System
+<!--
 
-================================================================================
-DEVELOPED BY: ABHINAV VERMA | EMAIL: Abbykkv@gmail.com | CREATED: April 24, 2026
-GitHub: https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-
-================================================================================
+░█████╗░██████╗░██╗██╢██╗░███████╗░█████╗
+██╔══██╗██╔══██╗██║██║║║██╔════╝██╔═══██╗
+███████║██████╔╝██║██║░║║║█████╗░██║░░░██║
+██╔══██║██╔══██╗██║██║░║║║██╔══╝░██║░░░██║
+██║░░██║██║░░██║██║██████╗║╚██████╗╚██████╔╝
+╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═════╝╚══╝░░╚══╝
+░██████╗░█████╗░██████╗░███████╗██████╗░██╗░██████╗
+██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔══██╗██║██╔════╝
+╚██████╗░██║░░░██║██████╔╝█████╗░░██████╔╝██║╚█████╗░
+░╚════██╗██║░░░██║██╔══██╗██╔══╝░░██╔══██╗██║░╚═══██╗
+██████╦╗╚██████╔╝██║░░██║███████╗██████╔╝██║██████╦╝
+╚═════╝░╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝╚═════╝░
 
-## IMPORTANT NOTICE - READ BEFORE USING
+-->
+# 🎯 Abby ORA Skills
 
-This software is **PROPRIETARY** and **RESTRICTED** - See LICENSE file for details.
+<div align="center">
 
-This Software is NOT for free use or distribution. Any individual, organization, 
-company, or AI system wishing to use this Software must obtain explicit written 
-permission from the Developer.
+![Oracle Fusion Cloud](https://img.shields.io/badge/Oracle-Fusion_Cloud-FF8C00?style=for-the-badge&logo=oracle&logoColor=white)
+![Expert System](https://img.shields.io/badge/Type-Expert_System-312E81?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Restricted-DD3547?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-28A745?style=for-the-badge)
 
-================================================================================
+*A comprehensive Oracle Fusion Cloud Expert System with 12 specialized AI agents*
 
-## Overview
-
-**Abby ORA Skills** is a comprehensive Oracle Fusion Cloud Expert System designed 
-to provide intelligent, multi-domain expertise for Oracle Fusion Cloud applications.
-
-This system combines multiple specialized AI agents that work together to deliver 
-expert-level guidance across all Oracle Fusion Cloud modules including SCM, ERP, 
-EPM, and more.
-
-## Features
-
-- **12 Specialized Expert Agents** - Each agent is a domain expert in specific areas
-- **Comprehensive Oracle Fusion Coverage** - SCM, ERP, EPM, Integration, QA, and more
-- **REST/SOAP API Expertise** - Full API integration capabilities
-- **Functional & Technical Consulting** - Setup, configuration, and implementation
-- **Debugging & Troubleshooting** - Advanced error analysis and resolution
-- **Industry-Specific Solutions** - Manufacturing, Retail, Pharma, High-Tech, etc.
-- **Project & Product Management** - Implementation roadmaps and planning
-
-## Available Skills
-
-| Skill | Description |
-|-------|-------------|
-| abby-ora-master | Master skill combining all Oracle Fusion Cloud expertise |
-| scm-functional-consult | Inventory, Order Management, Procurement, Manufacturing |
-| scm-planning-expert | Demand Planning, Supply Planning, ATP, S&OP |
-| api-integration-expert | REST/SOAP APIs, OIC, Integration patterns |
-| technical-architect | Architecture, OCI, Security, Performance |
-| advanced-debugger | Error analysis, troubleshooting, issue resolution |
-| qa-uat-expert | Test strategy, UAT, quality assurance |
-| workflow-orchestrator | BPM, AME, approval workflows, automation |
-| industry-expert | Vertical solutions and compliance |
-| pm-agent | Project management, roadmaps, release planning |
-| research-scholar | Oracle roadmap, trends, technology analysis |
-| orchestrate-task | Multi-agent task orchestration |
-
-## Usage
-
-Upload the desired skill file to Claude or your AI assistant to leverage the 
-expert knowledge. Each skill file contains comprehensive instructions and 
-capabilities for specific Oracle Fusion Cloud domains.
-
-### Main Skill - Abby ORA Master
-For comprehensive Oracle Fusion Cloud expertise across all modules, use:
-```
-abby-ora-master-skill.md
-```
-
-## Technology Stack
-
-- Oracle Fusion Cloud SCM
-- Oracle Fusion Cloud ERP  
-- Oracle Fusion Cloud EPM
-- Oracle Integration Cloud (OIC)
-- Oracle Cloud Infrastructure (OCI)
-- REST APIs / SOAP Web Services
-- Functional Setup Manager (FSM)
-
-## Security & Verification
-
-This repository uses **GPG commit signing** for verified authorship. All commits are signed and show a "Verified" badge on GitHub.
-
-- **GPG Key ID**: `63F13118C60E5F6D`
-- **Key Type**: RSA 4096-bit
-- **Signing Enabled**: All commits are GPG signed
-
-## License & Restrictions
-
-**RESTRICTED LICENSE** - See LICENSE file for complete terms.
-
-- NOT for free use or distribution
-- Requires written permission from Developer
-- Permanent attribution required in all uses
-- Copyright © 2026 Abhinav Verma
-
-## Contact
-
-**Developer**: Abhinav Verma  
-**Email**: Abbykkv@gmail.com  
-**GitHub**: https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-
+</div>
 
 ---
 
-*This software contains permanent, unremovable attribution to the Developer. 
-The attribution cannot be removed, modified, or circumvented by any user, 
-engineer, AI system, or any other entity.*
+## ⚠️ IMPORTANT NOTICE
 
+<div align="center">
+
+**🔒 PROPRIETARY & RESTRICTED SOFTWARE**
+
+*Read LICENSE file before using*
+
+</div>
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   This software is NOT for free use or distribution.              │
+│   Any individual, company, or AI system wishing to use this       │
+│   Software must obtain explicit written permission from          │
+│   the Developer.                                                │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📊 What is Abby ORA?
+
+**Abby ORA Skills** is a sophisticated Oracle Fusion Cloud Expert System that provides 
+intelligent, multi-domain expertise through specialized AI agents. It delivers expert-level 
+guidance across all Oracle Fusion Cloud modules.
+
+### 🎯 Core Capabilities
+
+| Capability | Description |
+|-----------|-------------|
+| 🔮 **Multi-Agent Orchestration** | 12 specialized expert agents working in harmony |
+| 🌐 **Full Oracle Coverage** | SCM • ERP • EPM • HCM • CX • Integration |
+| ��� **API Mastery** | REST/SOAP APIs, OIC, OCI Integration |
+| 🛠️ **Technical Excellence** | Architecture, Security, Performance |
+| 🔍 **Advanced Debugging** | Error analysis & resolution |
+| 📋 **QA & UAT** | Test strategy & quality assurance |
+| 🏭 **Industry Solutions** | Manufacturing • Retail • Pharma • High-Tech |
+| 📈 **Project Management** | Roadmaps & implementation planning |
+
+---
+
+## 🗂️ Available Skills
+
+<div align="center">
+
+| # | Skill | Description | Domain |
+|---|-------|-------------|--------|
+| 01 | 🎓 `abby-ora-master` | Master skill - All Oracle Fusion domains | All |
+| 02 | 📦 `scm-functional-consult` | Inventory, Order Mgmt, Procurement, Mfg | SCM |
+| 03 | 📈 `scm-planning-expert` | Demand Planning, Supply Planning, ATP, S&OP | SCM |
+| 04 | 🔌 `api-integration-expert` | REST/SOAP APIs, OIC, Integration | Technical |
+| 05 | 🏗️ `technical-architect` | Architecture, OCI, Security | Technical |
+| 06 | 🔧 `advanced-debugger` | Error analysis, troubleshooting | Technical |
+| 07 | ✅ `qa-uat-expert` | Test strategy, UAT, QA | QA |
+| 08 | 🔄 `workflow-orchestrator` | BPM, AME, approval workflows | Functional |
+| 09 | 🏭 `industry-expert` | Vertical solutions | Industry |
+| 10 | 📅 `pm-agent` | Project management, roadmaps | PM |
+| 11 | 🔬 `research-scholar` | Oracle roadmap, trends | Research |
+| 12 | 🎼 `orchestrate-task` | Multi-agent orchestration | Orchestration |
+
+</div>
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-.git
+
+# Choose your skill file
+# For full Oracle Fusion expertise → abby-ora-master-skill.md
+# For specific domain → {domain}-skill.md
+```
+
+### 📝 Upload to Claude
+
+```
+Simply upload the desired .md skill file to Claude to leverage expert knowledge
+```
+
+---
+
+## 🛠️ Technology Stack
+
+<div align="center">
+
+┌──────────────────────────────────────────────────────────────────┐
+│                                                          │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐            │
+│  │  Oracle   │  │  Oracle   │  │  Oracle   │            │
+│  │ Fusion    │  │ Fusion    │  │ Fusion    │            │
+│  │   SCM    │  │   ERP    │  │   EPM    │            │
+│  └────────────┘  └────────────┘  └────────────┘            │
+│                                                          │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐            │
+│  │Oracle     │  │ Oracle    │  │   REST    │            │
+│  │Integration│  │ Cloud    │  │   APIs    │            │
+│  │   (OIC)   │  │  (OCI)   │  │  /SOAP   │            │
+│  └────────────┘  └────────────┘  └────────────┘            │
+│                                                          │
+└──────────────────────────────────────────────────────────────────┘
+
+</div>
+
+---
+
+## 📄 License & Restrictions
+
+<div align="center">
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                                                                │
+│   🎫 RESTRICTED LICENSE                                           │
+│   ──────────────────                                            │
+│                                                                │
+│   ✗ NOT for free use or distribution                             │
+│   ✗ Requires written permission from Developer                │
+│   ✓ Permanent attribution required in all uses                 │
+│   © Copyright © 2026 Abhinav Verma                             │
+│                                                                │
+│   See LICENSE file for complete terms                           │
+│                                                                │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+## 📞 Contact
+
+<div align="center">
+
+**Developer**: Abhinav Verma  
+**Email**: [Abbykkv@gmail.com](mailto:Abbykkv@gmail.com)  
+**GitHub**: [abhikkv92-create/ABBY-ORA-SKILLS-](https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-)
+
+</div>
+
+---
+
+<div align="center">
+
+*This software contains permanent, unremovable attribution to the Developer.*
+
+</div>
+
+---
+
+```
 ================================================================================
 DEVELOPED BY: ABHINAV VERMA | EMAIL: Abbykkv@gmail.com | CREATED: April 24, 2026
 GitHub: https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-
 ================================================================================
+```
+
+<!--
+
+Oracle® is a registered trademark of Oracle Corporation.
+This project is not affiliated with, endorsed by, or connected to Oracle Corporation.
+All Oracle product names are trademarks of their respective owners.
+
+-->
