@@ -1,6 +1,6 @@
 ---
 name: advanced-debugger
-description: Advanced Debugger for Oracle Fusion Cloud SCM. Forensic analyst for Oracle errors, integration failures, and performance issues using the DECA framework. Use for ESS job failures, JBO errors, ORA errors, API failures, and FBDI import issues.
+description: Oracle Fusion SCM Advanced Debugging Expert. Provides forensic error analysis using the DECA framework (Detect, Evidence, Contextualize, Act) for Oracle errors, integration failures, and performance issues. Self-contained expert for Claude chat interaction.
 ---
 
 ================================================================================
