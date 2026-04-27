@@ -1,41 +1,29 @@
 {
   "name": "abby-ora-skills",
   "version": "2.0.0",
-  "description": "Intelligent Oracle Fusion Cloud Expert System with Memory, Self-Learning, and Claude Code Plugin Compatibility. 12 specialized AI agents with intelligent routing, session memory, audit logging, and adaptive learning. STRICTLY OFFLINE - No external connections.",
+  "description": "Intelligent Oracle Fusion Cloud Expert System with Memory, Self-Learning, and Claude Code Plugin Compatibility. 12 specialized AI agents with intelligent routing, session memory, audit logging, and adaptive learning.",
   "author": {
     "name": "Abhinav Verma",
     "email": "Abbykkv@gmail.com"
   },
   "homepage": "https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-",
   "repository": "https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-",
-  "license": "RESTRICTED",
-  "keywords": ["oracle", "fusion", "scm", "erp", "epm", "expert-system", "ai", "claude", "plugin", "offline", "memory", "intelligent"],
-  "skills": "./skills/",
-  "agents": "./agents/",
+  "license": "MIT",
+  "keywords": ["oracle", "fusion", "scm", "erp", "epm", "expert-system", "ai", "claude", "plugin", "memory", "intelligent"],
+  "skills": [
+    "./abby-ora-master-skill.md",
+    "./scm-functional-consult/",
+    "./scm-planning-expert/",
+    "./api-integration-expert/",
+    "./technical-architect/",
+    "./advanced-debugger/",
+    "./qa-uat-expert/",
+    "./workflow-orchestrator/",
+    "./industry-expert/",
+    "./pm-agent/",
+    "./research-scholar/",
+    "./orchestrate-task/"
+  ],
   "hooks": "./hooks/hooks.json",
-  "memory": "./memory/memory.json",
-  "processes": "./processes/processes.json",
-  "userConfig": {
-    "memory_enabled": {
-      "description": "Enable session memory for context tracking (true/false)",
-      "sensitive": false,
-      "default": "true"
-    },
-    "audit_enabled": {
-      "description": "Enable audit logging for all interactions (true/false)",
-      "sensitive": false,
-      "default": "true"
-    },
-    "learning_mode": {
-      "description": "Self-learning mode: adaptive, conservative, or strict",
-      "sensitive": false,
-      "default": "adaptive"
-    },
-    "response_verbosity": {
-      "description": "Response detail level: concise, standard, or detailed",
-      "sensitive": false,
-      "default": "standard"
-    }
-  },
   "dependencies": []
 }
