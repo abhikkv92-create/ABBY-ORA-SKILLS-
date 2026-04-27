@@ -20,35 +20,11 @@
 
 ![Oracle Fusion Cloud](https://img.shields.io/badge/Oracle-Fusion_Cloud-FF8C00?style=for-the-badge&logo=oracle&logoColor=white)
 ![Expert System](https://img.shields.io/badge/Type-Expert_System-312E81?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Restricted-DD3547?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-28A745?style=for-the-badge)
 
 *A comprehensive Oracle Fusion Cloud Expert System with 12 specialized AI agents*
 
 </div>
-
----
-
-## ⚠️ IMPORTANT NOTICE
-
-<div align="center">
-
-**🔒 PROPRIETARY & RESTRICTED SOFTWARE**
-
-*Read LICENSE file before using*
-
-</div>
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   This software is NOT for free use or distribution.              │
-│   Any individual, company, or AI system wishing to use this       │
-│   Software must obtain explicit written permission from          │
-│   the Developer.                                                │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
