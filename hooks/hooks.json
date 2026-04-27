@@ -1,0 +1,64 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "inline",
+            "memory": {
+              "session_id": "${CLAUDE_SESSION_ID}",
+              "timestamp": "${TIMESTAMP}",
+              "initialized": true
+            },
+            "description": "Initialize session memory and context tracking"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "abby-ora:master-skill|abby-ora:route-task|abby-ora:get-memory",
+        "hooks": [
+          {
+            "type": "inline",
+            "audit": {
+              "tool_used": "${TOOL_NAME}",
+              "logged": true
+            },
+            "description": "Log Abby ORA skill usage to audit trail"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "inline",
+            "memory_persist": {
+              "session_summary": true,
+              "context_preserved": true
+            },
+            "description": "Save session memory and create context summary"
+          }
+        ]
+      }
+    ]
+  },
+  "memory": {
+    "enabled": true,
+    "type": "session-based",
+    "retention": "context-window",
+    "features": [
+      "intent_tracking",
+      "context_accumulation",
+      "pattern_recognition",
+      "response_quality_scoring"
+    ]
+  },
+  "audit": {
+    "enabled": true,
+    "sensitive_fields": ["password", "secret", "token", "api_key", "credential"],
+    "log_format": "jsonl"
+  }
+}
