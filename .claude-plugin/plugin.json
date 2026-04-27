@@ -9,7 +9,5 @@
   "homepage": "https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-",
   "repository": "https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-",
   "license": "MIT",
-  "keywords": ["oracle", "fusion", "scm", "erp", "epm", "expert-system"],
-  "skills": "./skills/",
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["oracle", "fusion", "scm", "erp", "epm", "expert-system"]
 }
