@@ -1,0 +1,15 @@
+{
+  "name": "Abby ORA Skills Marketplace",
+  "owner": {
+    "name": "Abhinav Verma",
+    "email": "Abbykkv@gmail.com"
+  },
+  "description": "Oracle Fusion Cloud Expert System with 12 specialized AI agents for SCM, ERP, EPM",
+  "plugins": [
+    {
+      "name": "abby-ora-skills",
+      "source": "https://github.com/abhikkv92-create/ABBY-ORA-SKILLS-",
+      "description": "Intelligent Oracle Fusion Cloud Expert System with 12 specialized AI agents"
+    }
+  ]
+}
