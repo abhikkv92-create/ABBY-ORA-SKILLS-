@@ -63,6 +63,10 @@ SESSION_CONTEXT = {
 | test, UAT, QA, validation | QA | qa | simple |
 | roadmap, timeline, project | PM | planning | medium |
 | Oracle roadmap, release, trend | Research | research | simple |
+| tech stack, dependencies, framework | Commands | project-onboard | simple |
+| architecture, structure, components | Commands | codebase-map | medium |
+| refactor, code smell, anti-pattern | Commands | refactor-assist | medium |
+| onboard, detect stack | Commands | project-onboard | simple |
 
 ### Intelligent Routing System
 
@@ -87,6 +91,11 @@ SESSION_CONTEXT = {
 | QA | testing | qa-uat-expert | - |
 | Research | trends | research-scholar | - |
 | PM | planning | pm-agent | - |
+| Industry | vertical | industry-expert | - |
+| Multi | complex | orchestrate-task | all relevant |
+| Commands | project-onboard | project-onboard | - |
+| Commands | codebase-map | codebase-map | - |
+| Commands | refactor-assist | refactor-assist | - |
 | Industry | vertical | industry-expert | - |
 | Multi | complex | orchestrate-task | all relevant |
 
