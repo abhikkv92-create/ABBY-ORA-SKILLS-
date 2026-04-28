@@ -22,7 +22,7 @@
 ![Expert System](https://img.shields.io/badge/Type-Expert_System-312E81?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-28A745?style=for-the-badge)
 
-*A comprehensive Oracle Fusion Cloud Expert System with 12 specialized AI agents*
+*A comprehensive Oracle Fusion Cloud Expert System with 15 specialized AI agents*
 
 </div>
 
@@ -38,10 +38,10 @@ guidance across all Oracle Fusion Cloud modules.
 
 | Capability | Description |
 |-----------|-------------|
-| 🔮 **Multi-Agent Orchestration** | 12 specialized expert agents working in harmony |
+| 🔮 **Multi-Agent Orchestration** | 15 specialized expert agents working in harmony |
 | 🌐 **Full Oracle Coverage** | SCM • ERP • EPM • HCM • CX • Integration |
 | ��� **API Mastery** | REST/SOAP APIs, OIC, OCI Integration |
-| 🛠️ **Technical Excellence** | Architecture, Security, Performance |
+| 🛠️ **Technical Excellence** | Architecture, OCI, Security |
 | 🔍 **Advanced Debugging** | Error analysis & resolution |
 | 📋 **QA & UAT** | Test strategy & quality assurance |
 | 🏭 **Industry Solutions** | Manufacturing • Retail • Pharma • High-Tech |
@@ -67,8 +67,23 @@ guidance across all Oracle Fusion Cloud modules.
 | 10 | 📅 `pm-agent` | Project management, roadmaps | PM |
 | 11 | 🔬 `research-scholar` | Oracle roadmap, trends | Research |
 | 12 | 🎼 `orchestrate-task` | Multi-agent orchestration | Orchestration |
+| 13 | 🗂️ `project-onboard` | Auto-detect tech stack & structure | Commands |
+| 14 | 🗺️ `codebase-map` | Architecture documentation | Commands |
+| 15 | 🔍 `refactor-assist` | Code smells & refactoring | Commands |
 
 </div>
+
+---
+
+## ⚡ Command Routing
+
+These commands can be triggered by natural language:
+
+| Command | Trigger Keywords | Purpose |
+|---------|-----------------|---------|
+| `/project-onboard` | tech stack, dependencies, framework, onboard | Detect technology stack |
+| `/codebase-map` | architecture, structure, components | Generate architecture docs |
+| `/refactor-assist` | refactor, code smell, anti-pattern | Improve code quality |
 
 ---
 
