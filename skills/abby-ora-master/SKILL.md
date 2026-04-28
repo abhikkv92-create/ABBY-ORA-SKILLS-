@@ -35,7 +35,7 @@ This skill operates as a **Claude Code Plugin** with intelligent capabilities:
 **Memory Variables:**
 ```
 SESSION_CONTEXT = {
-  "current_domain": "scm|erp|epm|hcm|cx|technical|functional|qa|research|pm|industry",
+  "current_domain": "scm|erp|epm|hcm|cx|technical|functional|qa|research|pm|industry|sap",
   "active_skill": "current_specialist",
   "query_intent": "functional|technical|troubleshooting|planning|qa|research|integration",
   "complexity": "simple|medium|complex|expert",
@@ -67,6 +67,8 @@ SESSION_CONTEXT = {
 | architecture, structure, components | Commands | codebase-map | medium |
 | refactor, code smell, anti-pattern | Commands | refactor-assist | medium |
 | onboard, detect stack | Commands | project-onboard | simple |
+| SAP, S/4HANA, MM, PP, PM | SAP | integration | medium |
+| Oracle to SAP, Oracle-SAP bridge | SAP | integration | expert |
 
 ### Intelligent Routing System
 
@@ -98,6 +100,9 @@ SESSION_CONTEXT = {
 | Commands | refactor-assist | refactor-assist | - |
 | Industry | vertical | industry-expert | - |
 | Multi | complex | orchestrate-task | all relevant |
+| SAP | functional | sap-functional-consult | - |
+| SAP | integration | sap-integration-expert | api-integration-expert |
+| SAP | troubleshooting | advanced-debugger | sap-integration-expert |
 
 ---
 

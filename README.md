@@ -70,6 +70,8 @@ guidance across all Oracle Fusion Cloud modules.
 | 13 | 🗂️ `project-onboard` | Auto-detect tech stack & structure | Commands |
 | 14 | 🗺️ `codebase-map` | Architecture documentation | Commands |
 | 15 | 🔍 `refactor-assist` | Code smells & refactoring | Commands |
+| 16 | 🔌 `sap-integration-expert` | SAP S/4HANA API, MM, Oracle-SAP Bridge | SAP |
+| 17 | 📦 `sap-functional-consult` | SAP MM, PP, PM configuration | SAP |
 
 </div>
 

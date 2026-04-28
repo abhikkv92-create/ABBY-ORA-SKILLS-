@@ -27,6 +27,10 @@ For specialized requests within the Oracle Fusion domain:
 | Industry vertical | `/industry-expert` | Industry solutions |
 | Research/trends | `/research-scholar` | Oracle roadmap, trends |
 | Workflows | `/workflow-orchestrator` | Process automation |
+| SAP S/4HANA | `/sap-integration-expert` | API, MM, Manufacturing |
+| SAP functional | `/sap-functional-consult` | MM, PP, PM configuration |
+| SAP Fiori/UI5 | `/sap-fiori-developer` | Fiori design, SAPUI5 development |
+| SAP Analytics | `/sap-analytics-expert` | SAC, BW/4HANA, BI integration |
 
 ## Automation Triggers
 
@@ -36,6 +40,10 @@ For specialized requests within the Oracle Fusion domain:
 - **Keyword**: "API", "endpoint", "OAuth" → auto-suggest API integration
 - **Keyword**: "error", "failed", "debug" → auto-suggest advanced-debugger
 - **Keyword**: "test", "UAT", "validation" → auto-suggest QA expert
+- **Keyword**: "SAP", "S/4HANA", "MM" → auto-suggest SAP integration
+- **Keyword**: "Fiori", "UI5", "SAPUI5" → auto-suggest Fiori development
+- **Keyword**: "SAC", "Analytics Cloud", "BW" → auto-suggest Analytics expert
+- **Keyword**: "Oracle to SAP", "Oracle-SAP" → auto-suggest Oracle-SAP bridge
 
 ### Context Continuity Rules
 
