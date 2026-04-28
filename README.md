@@ -19,10 +19,11 @@
 <div align="center">
 
 ![Oracle Fusion Cloud](https://img.shields.io/badge/Oracle-Fusion_Cloud-FF8C00?style=for-the-badge&logo=oracle&logoColor=white)
+![SAP S/4HANA](https://img.shields.io/badge/SAP-S%2F4HANA-008FD3?style=for-the-badge&logo=sap&logoColor=white)
 ![Expert System](https://img.shields.io/badge/Type-Expert_System-312E81?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-28A745?style=for-the-badge)
 
-*A comprehensive Oracle Fusion Cloud Expert System with 15 specialized AI agents*
+*A comprehensive Oracle Fusion Cloud & SAP S/4HANA Expert System with 19 specialized AI agents*
 
 </div>
 
@@ -38,8 +39,9 @@ guidance across all Oracle Fusion Cloud modules.
 
 | Capability | Description |
 |-----------|-------------|
-| 🔮 **Multi-Agent Orchestration** | 15 specialized expert agents working in harmony |
+| 🔮 **Multi-Agent Orchestration** | 19 specialized expert agents working in harmony |
 | 🌐 **Full Oracle Coverage** | SCM • ERP • EPM • HCM • CX • Integration |
+| 🏢 **SAP S/4HANA** | MM • PP • PM • Analytics • Fiori • Integration |
 | ��� **API Mastery** | REST/SOAP APIs, OIC, OCI Integration |
 | 🛠️ **Technical Excellence** | Architecture, OCI, Security |
 | 🔍 **Advanced Debugging** | Error analysis & resolution |
@@ -72,8 +74,22 @@ guidance across all Oracle Fusion Cloud modules.
 | 15 | 🔍 `refactor-assist` | Code smells & refactoring | Commands |
 | 16 | 🔌 `sap-integration-expert` | SAP S/4HANA API, MM, Oracle-SAP Bridge | SAP |
 | 17 | 📦 `sap-functional-consult` | SAP MM, PP, PM configuration | SAP |
+| 18 | 📊 `sap-analytics-expert` | SAP BW/4HANA, SAC, BI integration | SAP |
+| 19 | 🎨 `sap-fiori-developer` | SAP Fiori, SAPUI5 development | SAP |
 
 </div>
+
+### 🏢 SAP S/4HANA Extension
+
+The framework has been extended to include comprehensive SAP S/4HANA coverage:
+
+| Module | Coverage | Integration Patterns |
+|--------|----------|---------------------|
+| **MM** | Material Master, Purchasing, Inventory, MRP | OData, BAPI, IDoc, CPI |
+| **PP** | Production Planning, MRP Live, Production Orders | REST APIs, RFC, Event Mesh |
+| **PM** | Plant Maintenance, Equipment, Work Orders | BAPI, OData, Integration Suite |
+| **Analytics** | BW/4HANA, SAC, BI integration | Live connections, OData writeback |
+| **Fiori/UI5** | Responsive apps, enterprise UX | SAP BTP deployment |
 
 ---
 
